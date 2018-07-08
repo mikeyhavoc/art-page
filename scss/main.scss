@@ -1,13 +1,18 @@
-
+// =============================================
+// Main import sheet
+// file: main.scss
+// Author: Michael Williams
+// version: 1.1.0
+// date: 2018-07-08 11:02:53
+// ==============================================
 /*-----------------------------*/
-@import 'components/index';
-@import "imports/dropdown";
-@import 'imports/practice';
+@import 'base/index';       // base vars, mixins, base styles.
+@import 'components/index'; // icons, ....
+@import "imports/dropdown"; // dropdown ...
 
 
 
-.art { color: $color-primary; }
-.rule { width: 50%; color: $color-primary; background-color: $color-primary; }
+
 
 
 .faqs { h3 { display: inline-block; }}
