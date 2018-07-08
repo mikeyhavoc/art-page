@@ -6,7 +6,7 @@
 
 %chevron-down {
   .fa-chevron-double-down {
-    @include transit();
+    @include transit(); // <- mixin...transition.
   }
 }
 
