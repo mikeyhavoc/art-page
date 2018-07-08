@@ -9,14 +9,4 @@
 @import 'base/index';       // base vars, mixins, base styles.
 @import 'components/index'; // icons, ....
 @import "imports/dropdown"; // dropdown ...
-
-
-
-
-
-
-.faqs { h3 { display: inline-block; }}
-
-i { padding-left: 0.735em; }
-
-
+@import "emo/index";
