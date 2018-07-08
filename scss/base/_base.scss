@@ -1,0 +1,37 @@
+
+
+
+i { padding-left: 0.735em; }
+
+.faqs {
+  h3 { display: inline-block; }
+
+
+  @include flexy($flex: flex, $wrap: wrap, $justify: justify);
+
+  border-top: 1px solid $color-primary;
+  padding: 20px;
+  cusor: pointer;
+
+  @extend %chevron-down; // icon section.
+
+}
+
+.response {
+  @include transit(); // transition mixin.
+  overflow: hidden;
+  max-height: 0;
+}
+
+.accordion {
+  li.open {
+    .question {
+      @extend %chevron-transform; // icon extend.
+    }
+    .response {
+      max-height: 125px;
+
+      //|| need to fix media queries in future.||
+    }
+  }
+}
