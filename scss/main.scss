@@ -1,4 +1,10 @@
- $color-primary: red;
+
+/*-----------------------------*/
+@import 'components/index';
+@import "imports/dropdown";
+@import 'imports/practice';
+
+
 
 .art { color: $color-primary; }
 .rule { width: 50%; color: $color-primary; background-color: $color-primary; }
@@ -9,35 +15,3 @@
 i { padding-left: 0.735em; }
 
 
- .faqs {
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-   border-top: 1px solid #eee;
-   padding: 20px;
-   cusor: pointer;
-
-   .fa-chevron-double-down {
-     transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
-   }
-
- }
-
- .response {
-   transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
-   overflow: hidden;
-   max-height: 0;
- }
-
- .accordion {
-   li.open {
-     .question {
-       .fa-chevron-double-down {
-         transform: rotate(180deg);
-       }
-     }
-     .response {
-       max-height: 125px;
-     }
-   }
- }
