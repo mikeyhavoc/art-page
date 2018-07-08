@@ -2,11 +2,10 @@
 // Main import sheet
 // file: main.scss
 // Author: Michael Williams
-// version: 1.1.0
+// version: 1.2.0
 // date: 2018-07-08 11:02:53
 // ==============================================
 /*-----------------------------*/
 @import 'base/index';       // base vars, mixins, base styles.
 @import 'components/index'; // icons, ....
-@import "imports/dropdown"; // dropdown ...
 @import "emo/index";
